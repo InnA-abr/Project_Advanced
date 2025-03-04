@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -21,6 +24,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/annamamaeva/Desktop/steproject-final /src/fonts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -52,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741013880162</updated>
       <workItem from="1741013881432" duration="1170000" />
-      <workItem from="1741015273724" duration="2032000" />
+      <workItem from="1741015273724" duration="2152000" />
     </task>
     <servers />
   </component>
