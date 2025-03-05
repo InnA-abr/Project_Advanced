@@ -1,0 +1,56 @@
+@use "variables" as *;
+
+.hero {
+  padding-top: 170px;
+  @media screen and (max-width: $ui-breakpoint-md) {
+    padding-top: 80px;
+  }
+}
+
+.hero__title {
+  font-family: $ui-main-font;
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  @media screen and (max-width: $ui-breakpoint-lg) {
+    font-size: 120px;
+  }
+  @media screen and (max-width: $ui-breakpoint-md) {
+    font-size: 57px;
+  }
+}
+
+.hero__span {
+  font-family: $ui-main-font;
+  font-weight: 300;
+  font-size: 150px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 30px;
+
+  @media screen and (max-width: $ui-breakpoint-lg) {
+    font-size: 120px;
+  }
+  @media screen and (max-width: $ui-breakpoint-md) {
+    font-size: 57px;
+    gap: 10px;
+  }
+}
+
+.hero__image {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+
+  @media screen and (max-width: $ui-breakpoint-md) {
+    padding-top: 14px;
+  }
+}
+
+.hero__scroll {
+  width: 45px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+}

@@ -1,37 +1,29 @@
+@use "variables" as *;
 
-@use 'variables' as *;
-
-.body{
+.body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #f5f3ea;
 }
-
-
-
 
 .container {
   max-width: 1800px; // Desktop width
   margin: 0 auto;
-  padding: 0 70px;
+  padding: 0 30px;
 
   @media screen and (max-width: $ui-breakpoint-lg) {
     max-width: 928px; // Tablet width
-    padding: 0 30px;
-
+    padding: 0 10px;
   }
 
   @media screen and (max-width: $ui-breakpoint-md) {
     max-width: 438px; // Mobile width
     padding: 0 10px;
-
   }
 
   @media screen and (max-width: $ui-breakpoint-sm) {
     max-width: 100%; //  full width on very small screens
     padding: 0 10px;
-
   }
 }
-
-

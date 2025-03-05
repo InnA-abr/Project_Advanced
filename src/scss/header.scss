@@ -1,63 +1,67 @@
-@use 'variables' as *;
+@use "variables" as *;
 
-
-.header{
+.header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  margin-top: 40px;
+  background-color: #f5f3ea;
+  @media screen and (max-width: $ui-breakpoint-md) {
+    margin-top: 20px;
+  }
 }
 
-
-.header__content{
+.header__content {
   display: flex;
   justify-content: space-between;
-  padding-top:40px;
+  padding: 14px 0 44px;
   align-items: center;
+
+  @media screen and (max-width: $ui-breakpoint-md) {
+    padding: 0;
+  }
 }
-.header__logo-container{
+.header__logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:10px;
+  gap: 10px;
 }
 
-.header__logo{
+.header__logo {
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap:10px;
-  color:#000;
-  font-size:35px;
-  font-weight:800;
+  gap: 10px;
+  color: #000;
+  font-size: 35px;
+  font-weight: 800;
   font-family: $ui-main-font;
-  line-height:1.1;
+  line-height: 1.1;
 }
 
 @media screen and (max-width: $ui-breakpoint-md) {
-
   .header__logo {
     display: flex;
     align-items: center;
-    font-size:0;
+    font-size: 0;
   }
   .header__span {
-    display: none;
+    visibility: hidden;
   }
-
 }
 
-.header__span{
-font-weight: 400;
-  margin:0;
-  padding:0;
-
+.header__span {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
-.header__menu{
-  font-family:$ui-main-font;
+.header__menu {
+  font-family: $ui-main-font;
   font-size: 25px;
-  font-weight:600;
+  font-weight: 600;
   color: #000000;
-  text-decoration:none;
+  text-decoration: none;
 }
