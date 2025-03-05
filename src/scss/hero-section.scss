@@ -1,7 +1,7 @@
 @use "variables" as *;
 
 .hero {
-  padding-top: 160px;
+  padding-top: 170px;
   @media screen and (max-width: $ui-breakpoint-md) {
     padding-top: 80px;
   }
