@@ -1,0 +1,128 @@
+@use "variables" as *;
+
+.about {
+  position: relative;
+  padding: 90px 0;
+}
+
+.about__text {
+  font-size: 42px;
+  font-family: $ui-main-font;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #252525;
+  max-width: 70%;
+  text-align: left;
+
+  .about__span {
+    font-weight: 700;
+  }
+}
+
+.about__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  gap: 60px;
+}
+
+.about__social {
+  background-color: #1c1c1c;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  @media screen and (max-width: $ui-breakpoint-lg) {
+    width: 300px;
+    height: 180px;
+  }
+}
+
+.about__social-content {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 30px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.about__title {
+  font-family: $ui-main-font;
+  font-size: 32px;
+  line-height: 1;
+  text-align: right;
+  font-weight: 500px;
+  color: #fff;
+}
+
+.about__icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about__icon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+}
+
+.about__icon--facebook {
+  background-image: url("../img/socials/facebook_white.svg");
+}
+.about__icon--twitter {
+  background-image: url("../img/socials/twitter_white.svg");
+}
+.about__icon--linkedin {
+  background-image: url("../img/socials/linkedin_white.svg");
+}
+.about__icon--dribble {
+  background-image: url("../img/socials/dribble_white.svg");
+}
+
+@media screen and (max-width: $ui-breakpoint-lg) {
+  .about {
+    padding: 30px 0;
+  }
+  .about__content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about__text {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .about__social {
+    position: relative;
+    width: 100%;
+    right: unset;
+    top: unset;
+    transform: none;
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media screen and (max-width: $ui-breakpoint-md) {
+  .about__text {
+    font-size: 24px;
+  }
+  .about__title {
+    font-size: 24px;
+  }
+}
