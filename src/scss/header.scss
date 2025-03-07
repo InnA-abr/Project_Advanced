@@ -5,10 +5,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  margin-top: 40px;
+  padding-top: 40px;
   background-color: #f5f3ea;
   @media screen and (max-width: $ui-breakpoint-md) {
-    margin-top: 20px;
+    padding-top: 20px;
   }
 }
 
