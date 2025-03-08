@@ -2,12 +2,12 @@
 
 .contact {
   &__content {
-    padding: 50px 0 100px;
+    padding: 50px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     @media screen and (max-width: $ui-breakpoint-lg) {
-      padding-bottom: 50px;
+      padding-bottom: 30px;
       padding-top: 0;
       display: block;
       text-align: center;
@@ -71,6 +71,7 @@
     border: none;
     display: flex;
     align-items: center;
+    cursor: pointer;
 
     @media screen and (max-width: $ui-breakpoint-lg) {
       text-align: center;
