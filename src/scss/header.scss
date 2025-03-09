@@ -7,8 +7,10 @@
   width: 100%;
   padding-top: 40px;
   background-color: #f5f3ea;
+  z-index: 5;
   @media screen and (max-width: $ui-breakpoint-md) {
     padding-top: 20px;
+    padding-bottom: 5px;
   }
 }
 

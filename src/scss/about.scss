@@ -2,7 +2,6 @@
 
 .about {
   position: relative;
-  padding: 90px 0;
 }
 
 .about__text {
@@ -13,6 +12,7 @@
   color: #252525;
   max-width: 70%;
   text-align: left;
+  padding: 90px 0;
 
   .about__span {
     font-weight: 700;
@@ -93,9 +93,6 @@
 }
 
 @media screen and (max-width: $ui-breakpoint-lg) {
-  .about {
-    padding: 30px 0;
-  }
   .about__content {
     flex-direction: column;
     text-align: center;
@@ -104,7 +101,7 @@
   .about__text {
     max-width: 100%;
     text-align: center;
-    margin-bottom: 30px;
+    padding: 30px 0;
   }
 
   .about__social {
