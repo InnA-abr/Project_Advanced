@@ -18,7 +18,9 @@ body {
   }
 
   @media screen and (max-width: $ui-breakpoint-md) {
+    /*
     max-width: 480px; // Mobile width
+    */
     padding: 0 20px;
   }
 
