@@ -71,6 +71,9 @@
     border: none;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-wrap: nowrap;
+
     cursor: pointer;
 
     @media screen and (max-width: $ui-breakpoint-lg) {
