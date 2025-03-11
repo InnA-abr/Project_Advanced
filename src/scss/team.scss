@@ -126,6 +126,9 @@
   .our-team__list {
     grid-template-columns: repeat(2, 1fr);
   }
+  .our-team__btn {
+    padding: 15px 30px;
+  }
 }
 
 @media screen and (max-width: $ui-breakpoint-md) {
@@ -157,5 +160,10 @@
   .our-team__list {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+  .our-team__socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
 }
