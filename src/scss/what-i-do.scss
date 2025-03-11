@@ -4,6 +4,7 @@
   &__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #252525;
 
     @media screen and (max-width: $ui-breakpoint-lg) {
       display: block;
