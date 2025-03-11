@@ -59,9 +59,8 @@
 
   &__btn {
     border-radius: 50px;
-    padding: 10px 30px;
-    width: 198px;
-    height: 42px;
+    padding: 15px 30px;
+    width: 200px;
     background: #252525;
     font-family: $ui-main-font;
     font-weight: 500;
@@ -70,10 +69,10 @@
     color: #fff;
     border: none;
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     text-wrap: nowrap;
-
     cursor: pointer;
 
     @media screen and (max-width: $ui-breakpoint-lg) {
@@ -84,12 +83,10 @@
 
     @media screen and (max-width: $ui-breakpoint-md) {
       width: 100%;
-      padding: 16px 160px;
     }
 
     &::after {
       content: url("../img/arrow.svg");
-      margin-left: 10px;
       height: 18px;
     }
   }
